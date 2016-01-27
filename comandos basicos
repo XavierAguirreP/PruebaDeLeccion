@@ -1,0 +1,174 @@
+whatis (comando)
+indica de forma resumida para que sirve el comando
+whereis (comando)
+indica en que direccion esta el comando o archivo que indica el comando
+help -- ls o (comando)
+indica un numero de combinaciones basicas del comando a
+man ls
+da una lista de detalles de los nombres y combinaciones de comando
+mkdir (ruta)
+crea un direcctorio en la ruta que especifico
+cd (ruta)
+pone el terminal en la ruta especifica
+cd..
+regresa a la ruta por defecto
+pwd
+indica la ruta en que se encuentra ejecutando el terminal
+cp (ruta/archivo) (ruta destino)
+copia un archivo a la ruta
+
+
+*************************************** comandos de red*******
+ifconfig
+ping direccion ip o direccion de pagina
+netstat
+nslookup direccion de pag
+
+*************************************** script ejecutables*****
+***************************************************************
+***************************************************************
+script.sh
+paraa crear un script.sh se escribe en el terminal lo sgts:
+cd $HOME && touch script.sh && chmod +x script.sh
+
+2- para escribir dentro se pone en el terminal lo siguiente:
+cd $HOME && echo '#!/bin/bash' > script.sh && echo '# -*- ENCODING: UTF-8 -*-' >> script.sh
+
+PD: Después de esa segunda línea, a partir de ahí se escriben las instrucciones.
+
+3 para editarlo con el terminal utilizamos:
+nano script.sh
+
+http://computernewage.com/2013/05/14/como-leer-archivos-de-texto-desde-la-terminal-de-linux/
+
+¿Cómo ejecutar o probar un script .sh?
+
+1. Debemos ir hacia la carpeta donde está el script, en el ejemplo anterior sería nuestra carpeta personal, por lo que abrimos una terminal, en ella escribimos lo siguiente y presionamos Enter:
+
+cd $HOME
+
+2. Ahora lo ejecutamos poniendo un punto y un slash (seguidos), y seguido a esto el nombre del script, o sea:
+
+./script.sh
+
+
+
+3.Lo primero es saber cómo dar valor a una variable. Es tan sencillo como poner:
+nombre_variable=valor
+Si deseas guardar la salida de un programa solo tienes que ponerlo entre tildes
+invertidas:
+nombre_variable=`comando`
+
+
+
+ejecutar:
+1lunes a sabado excepto los viernes a las 11 de la noche
+2cada hora excepto 5 pm
+3viernes de cada mes
+4ejecutar todas las quincenas
+
+****************************************************************
+****************************************************************
+****************************************************************
+
+sudo chown www-data archivo
+**** www-data = usuario apache
+
+sudo apt-get install apache2
+**** apache2 es el paquete de apache para instalar
+
+which comando
+**** busca desde donde se esta ejecutando el archivo
+
+find archivo
+**** busca el archivo en todo el disco
+
+nano archivo
+**** abrir archivo de texto en el terminal
+
+grep 'Roger' * -R
+**** busca el archivo que tenga escrito lo que esta entre comilla simple (-R debe ser mayuscula)
+
+sudo apt-get remove --purge ......
+****  header image que se borran y se reemplazan en los puntos
+
+locate archivo
+**** utiliza una base de datos y necesita que esa base este actualizada
+
+sudo updatedb
+**** actualiza la base de datos de linux para utilizar locate
+
+sudo kill -9 PID PID PID
+**** necesitan los primeros numeros de la base de datos
+
+cat archivo|mail correo
+**** para hacer spam
+
+sudo apt-get install git-core
+**** instalar git hup
+
+
+githup
+git config --global user.name "Roger Peñafiel"
+git config --global user.email "robafiel@hotmail.com"
+ssh-keygen -t rsa
+
+gedit id_rsa.pub
+*****para la clave ssh se copia toda la clave publica y se la pega en el git para que acepte la contraseña 
+
+git clone https......
+***** url del repositorio para copiarlo en el proyecto
+git status
+
+git add archivo
+***** agrega el archivo para poder hacer el comit
+
+git commit -m "ñsdfkp"
+***** para el commit
+ 
+git pull https.....
+***** url del repositorio
+
+git push https.....
+***** usl del repositorio
+
+
+git add alias http............
+***** para guardar los url en las variables
+
+git remote http....
+***** para agregar url al git
+
+checkout
+***** para revisar el archivo
+
+heroku
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
+***************************************************************
+echo "# Practica2_Roger_Pe-afiel" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/RogerPM/Practica2_Roger_Pe-afiel.git
+git push -u origin master
+***************************************************************
+
+
+responsive desing
+
+ <meta charset=utf-8> <meta http-equiv=X-UA-Compatible content="IE=edge"> <meta name=viewport content="width=device-width,initial-scale=1"> <meta 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
